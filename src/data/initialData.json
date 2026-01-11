@@ -1,0 +1,123 @@
+{
+  "constants": {
+    "solPriceUSD": 100
+  },
+  "tokenRegistry": {
+    "0xPEPE123": {
+      "address": "0xPEPE123",
+      "symbol": "PEPE",
+      "name": "Pepe Coin",
+      "decimals": 9,
+      "totalSupply": 1000000000000,
+      "icon": "🐸",
+      "category": "meme"
+    },
+    "0xDOGE456": {
+      "address": "0xDOGE456",
+      "symbol": "DOGE",
+      "name": "Doge Meme",
+      "decimals": 6,
+      "totalSupply": 5000000000,
+      "icon": "🐕",
+      "category": "meme"
+    },
+    "0xSHIB789": {
+      "address": "0xSHIB789",
+      "symbol": "SHIB",
+      "name": "Shiba Inu",
+      "decimals": 9,
+      "totalSupply": 589000000000000,
+      "icon": "🐶",
+      "category": "meme"
+    },
+    "0xFLOKI111": {
+      "address": "0xFLOKI111",
+      "symbol": "FLOKI",
+      "name": "Floki Inu",
+      "decimals": 9,
+      "totalSupply": 10000000000000,
+      "icon": "🦊",
+      "category": "meme"
+    },
+    "0xWIF222": {
+      "address": "0xWIF222",
+      "symbol": "WIF",
+      "name": "Dogwifhat",
+      "decimals": 6,
+      "totalSupply": 998000000,
+      "icon": "🧢",
+      "category": "meme"
+    },
+    "0xBONK333": {
+      "address": "0xBONK333",
+      "symbol": "BONK",
+      "name": "Bonk",
+      "decimals": 5,
+      "totalSupply": 100000000000000,
+      "icon": "🔨",
+      "category": "meme"
+    }
+  },
+  "liquidityPools": {
+    "0xPEPE123": {
+      "tokenAddress": "0xPEPE123",
+      "solReserve": 100,
+      "tokenReserve": 1000000000,
+      "volume24h": 0,
+      "txCount24h": 0,
+      "createdAt": 1704758400000,
+      "lastPrice": 0.0000001,
+      "priceHistory": []
+    },
+    "0xDOGE456": {
+      "tokenAddress": "0xDOGE456",
+      "solReserve": 500,
+      "tokenReserve": 1000000000,
+      "volume24h": 0,
+      "txCount24h": 0,
+      "createdAt": 1704672000000,
+      "lastPrice": 0.0000005,
+      "priceHistory": []
+    },
+    "0xSHIB789": {
+      "tokenAddress": "0xSHIB789",
+      "solReserve": 50,
+      "tokenReserve": 1000000000,
+      "volume24h": 0,
+      "txCount24h": 0,
+      "createdAt": 1704585600000,
+      "lastPrice": 0.00000005,
+      "priceHistory": []
+    },
+    "0xFLOKI111": {
+      "tokenAddress": "0xFLOKI111",
+      "solReserve": 200,
+      "tokenReserve": 1000000000,
+      "volume24h": 0,
+      "txCount24h": 0,
+      "createdAt": 1704499200000,
+      "lastPrice": 0.0000002,
+      "priceHistory": []
+    },
+    "0xWIF222": {
+      "tokenAddress": "0xWIF222",
+      "solReserve": 1000,
+      "tokenReserve": 1000000000,
+      "volume24h": 0,
+      "txCount24h": 0,
+      "createdAt": 1704412800000,
+      "lastPrice": 0.000001,
+      "priceHistory": []
+    },
+    "0xBONK333": {
+      "tokenAddress": "0xBONK333",
+      "solReserve": 10,
+      "tokenReserve": 1000000000,
+      "volume24h": 0,
+      "txCount24h": 0,
+      "createdAt": 1704326400000,
+      "lastPrice": 0.00000001,
+      "priceHistory": []
+    }
+  }
+}
