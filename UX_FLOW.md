@@ -85,17 +85,6 @@
 
 ---
 
-## Edge Cases Handled
-
-| Scenario | Behavior |
-|----------|----------|
-| Not enough SOL to buy | Trade skipped, shows error |
-| Circular copy (A follows B, B follows A) | Copy trades don't trigger further copies |
-| Manual sell of copied tokens | Deducted from copy position (FIFO) |
-| Unfollow while holding position | Position stays, user manages manually |
-
----
-
 ## Mobile Design
 
 - Bottom navigation bar on mobile (< 768px)
