@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Navbar from './components/layout/Navbar';
 import MobileNav from './components/layout/MobileNav';
 import Toast from './components/common/Toast';
@@ -11,10 +11,21 @@ import { initializeAppData } from './utils/storage';
 import initialData from './data/initialData.json';
 
 function App() {
+  const [ready, setReady] = useState(false);
+
   useEffect(() => {
-    // Initialize localStorage with initial data on first load
     initializeAppData(initialData);
+    setReady(true);
   }, []);
+
+  if (!ready) {
+    // show something instead of blank
+    return (
+      <div className="min-h-screen bg-gray-900 flex items-center justify-center text-white">
+        Loading...
+      </div>
+    );
+  }
 
   return (
     <Router>
